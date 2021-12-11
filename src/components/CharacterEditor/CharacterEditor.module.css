@@ -57,19 +57,13 @@
   }
 
   .characterWrapper {
-    width: 100%;
-    position: absolute;
     left: 0;
     bottom: 0;
   }
 
   .controlColumn {
-    width: 100%;
+    padding-top: 32px;
     white-space: nowrap;
-    overflow: hidden;
-    position: fixed;
-    bottom: 10%;
-    left: 16;
     z-index: 1;
   }
 

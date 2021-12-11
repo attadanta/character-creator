@@ -1,4 +1,9 @@
 .buttonRow {
+  /*
+   * Without switching to a positioned layout, the visually hidden elements of each toggle
+   * button are constrained by the larger wrapper div. Hence, a scrollburglar appears.
+   */
+  position: relative;
   overflow: auto;
   white-space: nowrap;
   margin-bottom: -20px;
